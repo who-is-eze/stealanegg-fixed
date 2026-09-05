@@ -301,3 +301,5 @@ FarmTab:CreateToggle({
         RunService:Set3dRenderingEnabled(not v)
     end
 })
+
+print("Loaded. Go show some love to esore (vaehz)")
