@@ -528,8 +528,6 @@ function Library:CreateWindow(cfg)
   function Tab:CreateLabel(lcfg)
 	  lcfg = lcfg or {}
 
-	-- compatibilidad con el formato anterior:
-	-- Tab:CreateLabel("texto")
 	  if type(lcfg) == "string" then
 		  lcfg = { Text = lcfg }
 	  end
